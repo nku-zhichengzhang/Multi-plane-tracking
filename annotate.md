@@ -64,10 +64,22 @@
 </center>
 <br>
 
-**Step1:** 观看该场景的候选instance和
+**Init:** 观看该场景的候选instance和对应多个视频
 <br>
 
-**Step2:** 
+**Step1:** 标注视频对应的图片序列。
+
+**Step2:** 标注单帧图片，从候选instance中比对选择应被标注的平面instance。
+
+**Step3:** 用四边形标注位置信息，标注类别信息并分配instance id。
+
+**Step4:** 如果未标完当前图片序列，返回2
+
+**Step5:** 如果未标完当前场景，返回1
+<br>
+
+**End:** 打包所有Json文件
+
 <br>
 
 # 快捷键
