@@ -62,10 +62,17 @@
     color: #999;
     padding: 2px;">每一帧图片的标注方式。其中，object label一栏需要填入平面实例的类别信息，group id需要填入分配给平面实例的Id</div>
 </center>
+<br>
+
+**Step1:** 观看该场景的候选instance和
+<br>
+
+**Step2:** 
+<br>
 
 # 快捷键
-新建多边形：Ctrl+N
-编辑多边形：Ctr+J
-撤销：Ctrl+Z
-删除多边形：Del
+新建多边形：Ctrl+N<br>
+编辑多边形：Ctr+J<br>
+撤销：Ctrl+Z<br>
+删除多边形：Del<br>
 建议设置：自动保存，保留上一张的标注结果
