@@ -27,7 +27,19 @@
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">文件夹结构。每个场景文件夹下有instances文件夹和多个图片序列文件夹，instances中包含了候选图和每个实例的细节。</div>
+    padding: 2px;">文件夹结构。每个场景文件夹下有instances文件夹和多个图片序列文件夹</div>
+</center>
+<br>
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="http://qlu3j5vd3.hn-bkt.clouddn.com/%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">instances下文件夹结构。instances文件夹中包含了候选图和每个实例的细节。</div>
 </center>
 <br>
 
