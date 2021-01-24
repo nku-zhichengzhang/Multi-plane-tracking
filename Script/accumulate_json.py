@@ -5,7 +5,7 @@ import getopt
 
 def main(argv):
     root = ''
-    print(argv)
+    # print(argv)
     try:
         opts, args = getopt.getopt(argv,"hr:",["root="])
     except getopt.GetoptError:
