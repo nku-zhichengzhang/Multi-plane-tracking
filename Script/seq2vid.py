@@ -1,4 +1,3 @@
-#%%
 import os
 import cv2
 import numpy as np
@@ -19,7 +18,7 @@ def seq2vid(seq_root, anno_txt):
     videoWriter = cv2.VideoWriter(os.path.join(s_d,seq_root.split(os.sep)[-1]+'.avi'),fourcc,fps,(3840,2160),True)
     l = list(set([int(x[5:10]) for x in os.listdir(seq_root)]))
     for i in l:
-        print(i)
+        # print(i)
         img = cv2.imread(img_root+str(i).zfill(5)+'.jpg')
         point = []
         for line in lines:
@@ -38,4 +37,3 @@ def seq2vid(seq_root, anno_txt):
     txt.close()
 if __name__ == "__main__":
     seq2vid('I:\\dataset\\Ours\\anno\\zzc\\buildings4\\1','I:\\dataset\\Ours\\anno\\zzc\\gt\\buildings4\\1.txt')
-# %%
