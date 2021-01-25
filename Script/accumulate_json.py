@@ -17,7 +17,9 @@ def main(argv):
             sys.exit()
         elif opt in ("-r", "--root"):
             root = arg
+    accu(root)
     
+def accu(root):
     savedir = os.path.join(root,'gt')
     if not os.path.exists(savedir): os.makedirs(savedir)
 
