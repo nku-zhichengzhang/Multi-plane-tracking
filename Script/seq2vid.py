@@ -25,6 +25,9 @@ def seq2vid(root, scene, vid):
 
     videoWriter = cv2.VideoWriter(os.path.join(sc_d,seq_root.split(os.sep)[-1]+'.avi'),fourcc,fps,(3840,2160),True)
     l = list(set([int(x[5:10]) for x in os.listdir(seq_root)]))
+    l.sort()
+    # print(os.listdir(seq_root))
+
     for i in l:
         # print(i)
         img = cv2.imread(img_root+str(i).zfill(5)+'.jpg')
@@ -45,6 +48,7 @@ def seq2vid(root, scene, vid):
         
     videoWriter.release()
     txt.close()
+
 if __name__ == "__main__":
     sys.path.append(os.path.join(os.getcwd(),os.pardir,'accumulate_json.py'))
-    seq2vid('I:\\dataset\\Ours\\anno\\zzc','buildings6','1')
+    seq2vid('I:\\dataset\\Ours\\anno\\zzc','house6','1')
