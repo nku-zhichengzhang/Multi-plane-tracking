@@ -6,13 +6,14 @@ colorlist=[(0,0,0),(220,20,60),(0,0,205),(46,139,87),(255,215,0)]
 
 def seq2vid(root, scene, vid):
     accu(root)
-    seq_root = os.path.join(root,scene,vid)
     anno_txt = os.path.join(root,'gt',scene,vid+'.txt')
+    txt = open(anno_txt, 'r')
+    lines = txt.readlines()
+    
+    seq_root = os.path.join(root,scene,vid)
     img_root = os.path.join(seq_root,'frame')
     fps = 6
     seq = os.listdir(seq_root)
-    txt = open(anno_txt, 'r')
-    lines = txt.readlines()
     
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
     
@@ -45,4 +46,4 @@ def seq2vid(root, scene, vid):
     txt.close()
 if __name__ == "__main__":
     sys.path.append(os.path.join(os.getcwd(),os.pardir,'accumulate_json.py'))
-    seq2vid('I:\\dataset\\Ours\\anno\\zzc','buildings5','1')
+    seq2vid('I:\\dataset\\Ours\\anno\\zzc','buildings6','1')
