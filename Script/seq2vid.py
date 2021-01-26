@@ -48,7 +48,7 @@ def seq2vid(root, scene, vid):
         
     videoWriter.release()
     txt.close()
-
+    print('save to '+os.path.join(sc_d,seq_root.split(os.sep)[-1]+'.avi'))
 if __name__ == "__main__":
     sys.path.append(os.path.join(os.getcwd(),os.pardir,'accumulate_json.py'))
-    seq2vid('I:\\dataset\\Ours\\anno\\zzc','house6','1')
+    seq2vid('I:\\dataset\\Ours\\anno\\zzc','buildings5','3')
