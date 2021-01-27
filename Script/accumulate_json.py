@@ -54,9 +54,7 @@ def accu(root):
                 for i in num_id:
                     # print('instance:',i)
                     instance = []
-                    for idx,x in enumerate(t):
-
-                            
+                    for idx,x in enumerate(t):                            
                         if x['group_id'] == i:
                             # print(x)
                             instance.append([x['frame_id'], x['group_id'], x['label']]+two2one(x['points']))
