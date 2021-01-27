@@ -2,11 +2,12 @@ import os, sys
 import cv2
 import numpy as np
 from accumulate_json import accu
-colorlist=[(0,0,0),(220,20,60),(0,0,205),(46,139,87),(255,215,0)]
+colorlist=[(255, 218, 185),(220,20,60),(0,0,205),(46,139,87),(255,215,0)]
 
 def seq2vid(root, scene, vid):
     
     accu(root)
+    print('getting annotations')
     anno_txt = os.path.join(root,'gt',scene,vid+'.txt')
     txt = open(anno_txt, 'r')
     lines = txt.readlines()
