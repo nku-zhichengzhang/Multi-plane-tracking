@@ -23,7 +23,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="http://qlu3j5vd3.hn-bkt.clouddn.com/folders.png">
+    src="http://lrybbs.top/wp-content/uploads/2021/02/2021020116432151.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -35,7 +35,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="http://qlu3j5vd3.hn-bkt.clouddn.com/%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84.png">
+    src="http://lrybbs.top/wp-content/uploads/2021/02/2021020116432457.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -52,7 +52,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
-    src="http://qlu3j5vd3.hn-bkt.clouddn.com/candidat.png">
+    src="http://lrybbs.top/wp-content/uploads/2021/02/2021020116432681.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -73,7 +73,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="http://qlu3j5vd3.hn-bkt.clouddn.com/quardrangle.png">
+    src="http://lrybbs.top/wp-content/uploads/2021/02/2021020116432397.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -85,7 +85,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="http://qlu3j5vd3.hn-bkt.clouddn.com/order.png">
+    src="http://lrybbs.top/wp-content/uploads/2021/02/2021020116432176.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -108,7 +108,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="http://qlu3j5vd3.hn-bkt.clouddn.com/annotate.png">
+    src="http://lrybbs.top/wp-content/uploads/2021/02/2021020116432588.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
