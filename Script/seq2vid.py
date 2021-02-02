@@ -1,4 +1,4 @@
-import os, sys
+import os, sys, getopt
 import cv2
 import numpy as np
 from accumulate_json import accu
@@ -50,6 +50,29 @@ def seq2vid(root, scene, vid):
     videoWriter.release()
     txt.close()
     print('save to '+os.path.join(sc_d,seq_root.split(os.sep)[-1]+'.avi'))
+    
+def main(argv):
+    root = ''
+    scene = ''
+    vid = ''
+    try:
+        opts, args = getopt.getopt(argv,"-h-r:-s:-v:",["root=","scene=","vid="])
+    except getopt.GetoptError:
+        print('seq2vid.py -r <rootdir> -s <scene> -v <vid>')
+        sys.exit(2)
+    for opt, arg in opts:
+        if opt == '-h':
+            print('seq2vid.py -r <rootdir> -s <scene> -v <vid>')
+            sys.exit()
+        elif opt in ("-r", "--root"):
+            root = arg
+        elif opt in ("-s", "--scene"):
+            scene = arg
+        elif opt in ("-v", "--vid"):
+            vid = arg
+    seq2vid(root,scene,vid)
+    
 if __name__ == "__main__":
     sys.path.append(os.path.join(os.getcwd(),os.pardir,'accumulate_json.py'))
-    seq2vid('I:\\dataset\\Ours\\anno\\zzc','buildings5','4')
+    main(sys.argv[1:])
+    # seq2vid('I:\\dataset\\Ours\\anno\\zzc','buildings6','7')
