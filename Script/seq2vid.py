@@ -44,7 +44,7 @@ def seq2vid(root, scene, vid):
         for j in range(int((point.shape[0]+3)/4)):
             img = cv2.polylines(img, [point[j*4:4*j+4]], True, color=colorlist[int(idx[j])%5][0:3], thickness=5)
         cropped = img[1080:3240,1920:5760,:]
-        cv2.putText(cropped, '#'+str(i),(200, 200), cv2.FONT_HERSHEY_COMPLEX, 5.0, (255, 255, 255), 25) 
+        cv2.putText(cropped, '#'+str(i),(200, 200), cv2.FONT_HERSHEY_COMPLEX, 5.0, (255, 255, 255), 25)
         videoWriter.write(cropped)
         
     videoWriter.release()
