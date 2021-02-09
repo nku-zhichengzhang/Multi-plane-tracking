@@ -20,7 +20,7 @@
 ## 视频
 通过 Script/seq2vid.py 生成<br>
 
-    python seq2vid.py seq_root=./art_exhibition1 save_dir=../video
+    python Script\seq2vid.py -r path-to-root-dir -s scene -v video-index
 ## 文件夹结构
 <center>
     <img style="border-radius: 0.3125em;
@@ -110,7 +110,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="http://lrybbs.top/wp-content/uploads/2021/02/2021020116432588.png">
+    src="http://cdn.zzcheng.top/annotate.png">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
